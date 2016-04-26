@@ -30,7 +30,8 @@ ul {
   line-height: 30px; }
 
 #wrapper {
-  width: 100%; }
+  width: 100%;
+  position: relative; }
 
 .btn.btn-inverse {
   background-color: #111;
@@ -38,6 +39,20 @@ ul {
   border-radius: 0;
   height: 30px;
   font-size: 12px; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 57px;
+  background-color: #303641;
+  right: 0;
+  left: 250px;
+  line-height: 57px;
+  color: white;
+  font-size: 12px;
+  text-align: right; }
+  footer span {
+    white-space: pre; }
 
 nav.navbar-fixed-top {
   height: 50px;
@@ -108,7 +123,8 @@ ul {
   line-height: 30px; }
 
 #wrapper {
-  width: 100%; }
+  width: 100%;
+  position: relative; }
 
 .btn.btn-inverse {
   background-color: #111;
@@ -116,6 +132,20 @@ ul {
   border-radius: 0;
   height: 30px;
   font-size: 12px; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 57px;
+  background-color: #303641;
+  right: 0;
+  left: 250px;
+  line-height: 57px;
+  color: white;
+  font-size: 12px;
+  text-align: right; }
+  footer span {
+    white-space: pre; }
 
 nav.navbar-fixed-side {
   position: fixed;
@@ -203,7 +233,8 @@ ul {
   line-height: 30px; }
 
 #wrapper {
-  width: 100%; }
+  width: 100%;
+  position: relative; }
 
 .btn.btn-inverse {
   background-color: #111;
@@ -211,6 +242,20 @@ ul {
   border-radius: 0;
   height: 30px;
   font-size: 12px; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 57px;
+  background-color: #303641;
+  right: 0;
+  left: 250px;
+  line-height: 57px;
+  color: white;
+  font-size: 12px;
+  text-align: right; }
+  footer span {
+    white-space: pre; }
 
 #wrapper div.main-content {
   margin-left: 250px;

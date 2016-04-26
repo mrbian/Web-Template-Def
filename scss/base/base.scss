@@ -15,6 +15,7 @@ ul{
 
 #wrapper{
   width:100%;
+  position:relative;
 }
 
 .btn.btn-inverse{
@@ -23,4 +24,21 @@ ul{
   border-radius: 0;
   height:$sidebar-search-height;
   font-size:12px;
+}
+
+footer{
+  position:absolute;
+  bottom: 0;
+  height:$footer-height;
+  background-color: $main-color;
+  right:0;
+  left:$sidebar-width;
+  line-height: $footer-height;
+  color:white;
+  font-size:12px;
+  text-align: right;
+
+  span{
+    white-space: pre;
+  }
 }

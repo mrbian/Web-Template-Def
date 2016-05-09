@@ -1,2 +1,2 @@
 #DefOne-x
-todo:footer
+todo:œÏ”¶ Ω

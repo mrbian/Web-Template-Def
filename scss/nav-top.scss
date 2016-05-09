@@ -27,6 +27,10 @@ nav.navbar-fixed-top {
       li {
         display: inline-block;
       }
+      a:visited,a:hover{
+        color:white;
+        background-color: $navbar-top-right-color;
+      }
     }
     .dropdown-toggle{
       color:white;

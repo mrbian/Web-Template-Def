@@ -20,6 +20,10 @@ nav.navbar-fixed-side{
           font-size:20px;
         }
       }
+      a:hover,a:visited,a:active{
+        color:#fff !important;
+        background-color: $main-color;
+      }
       .info{
         position: relative;
         left:10px;

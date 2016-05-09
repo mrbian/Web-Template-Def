@@ -51,6 +51,9 @@ footer {
   color: white;
   font-size: 12px;
   text-align: right; }
+  @media all and (max-width: 768px) {
+    footer {
+      left: 0; } }
   footer span {
     white-space: pre; }
 
@@ -76,6 +79,9 @@ nav.navbar-fixed-top {
     margin-right: 20px; }
     nav.navbar-fixed-top .navbar-right ul.navbar-top-links li {
       display: inline-block; }
+    nav.navbar-fixed-top .navbar-right ul.navbar-top-links a:visited, nav.navbar-fixed-top .navbar-right ul.navbar-top-links a:hover {
+      color: white;
+      background-color: #18bc9c; }
     nav.navbar-fixed-top .navbar-right .dropdown-toggle {
       color: white;
       font-size: 14px; }
@@ -144,6 +150,9 @@ footer {
   color: white;
   font-size: 12px;
   text-align: right; }
+  @media all and (max-width: 768px) {
+    footer {
+      left: 0; } }
   footer span {
     white-space: pre; }
 
@@ -164,6 +173,9 @@ nav.navbar-fixed-side {
       color: #fff !important; }
       nav.navbar-fixed-side ul#side-menu li a .fa {
         font-size: 20px; }
+    nav.navbar-fixed-side ul#side-menu li a:hover, nav.navbar-fixed-side ul#side-menu li a:visited, nav.navbar-fixed-side ul#side-menu li a:active {
+      color: #fff !important;
+      background-color: #303641; }
     nav.navbar-fixed-side ul#side-menu li .info {
       position: relative;
       left: 10px;
@@ -254,6 +266,9 @@ footer {
   color: white;
   font-size: 12px;
   text-align: right; }
+  @media all and (max-width: 768px) {
+    footer {
+      left: 0; } }
   footer span {
     white-space: pre; }
 

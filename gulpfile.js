@@ -13,3 +13,7 @@ gulp.task("scss",function(){
 gulp.task("watch",function(){
     gulp.watch("./scss/**/*.scss",["scss"]);
 });
+
+gulp.task("default",["watch"],function(){
+
+});

@@ -1,6 +1,7 @@
 @import "variable.scss";
 @import "badge";
 @import "label";
+@import "mixin";
 .no-padding{
   padding:0;
 }
@@ -33,6 +34,7 @@ footer{
   background-color: $main-color;
   right:0;
   left:$sidebar-width;
+  @include setPhone(left,0);
   line-height: $footer-height;
   color:white;
   font-size:12px;
@@ -42,3 +44,4 @@ footer{
     white-space: pre;
   }
 }
+
